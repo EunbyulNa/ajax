@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: '맑은 고딕', arial, sans-serif;
+  color: #666;
+}
+
+header {
+border-bottom: 5px solid #000;
+margin-bottom: 30px;
+height: 120px;
+
+}
+
+header h1 {
+background: url('img/maker-logo.png') no-repeat;
+width: 225px;
+height: 90px;
+white-space: nowrap;
+text-indent: 100%;
+overflow: hidden;
+margin-top: 25px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+#content {
+
+}
+
+#vote {
+padding-top: 20px;
+}
+
+#vote .color {
+  float: left;
+  width: 320px;
+}
